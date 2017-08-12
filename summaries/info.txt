@@ -1,0 +1,30 @@
+[Choose alpha]
+== common ==
+max_order_num 30
+batch_size 512
+
+== 27, 81, 243 ==
+user_num_train 10000
+epoch_num 3
+x_dim 512 h_dim 2048
+
+== 30000, 90000 ==
+user_num_train 5000
+epoch_num 6
+x_dim 512 h_dim 2048
+
+== 100000000, 10000000000, 1000000000000 ==
+user_num_train 2500
+epoch_num 40
+x_dim 64 h_dim 256
+
+[Choose dim]
+== common ==
+max_order_num 30
+batch_size 512
+alpha 1000000
+
+== 128 ==
+user_num_train 5000
+epoch_num 60
+h_dim 512
